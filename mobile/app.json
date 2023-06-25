@@ -1,0 +1,52 @@
+{
+    "expo": {
+      "scheme": "com.usafe",
+      "plugins": [
+        [
+          "expo-camera",
+          {
+            "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+          }
+        ]
+      ],
+      "privacy": "unlisted",
+      "name": "crd",
+      "slug": "crd",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "userInterfaceStyle": "light",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#fad0d1"
+
+      },
+      "updates": {
+        "fallbackToCacheTimeout": 0
+      },
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "ios": {
+        "supportsTablet": true,
+        "bundleIdentifier": "com.usafe",
+        "splash": {
+          "image": "./assets/splash.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#fad1d0"
+
+        }
+      },
+      "android": {
+        "package": "com.usafe",
+        "adaptiveIcon": {
+          "foregroundImage": "./assets/adaptive-icon.png",
+          "backgroundColor": "#FFFFFF"
+        }
+      },
+      "web": {
+        "favicon": "./assets/favicon.png"
+      }
+    }
+
+  }
