@@ -1,0 +1,10 @@
+backend/node_modules/
+backend/controllers/Logs/*
+backend/controllers/MP_Data/*
+backend/MP_Data/*
+backend/controllers/upload
+backend/public/contact-photos
+backend/public/profile
+backend/.env
+backend/.vscode
+backend/configs/dotenv.js
