@@ -8,3 +8,5 @@ backend/public/profile
 backend/.env
 backend/.vscode
 backend/configs/dotenv.js
+web/.env
+web/node_modules/
